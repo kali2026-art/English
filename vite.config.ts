@@ -5,7 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/kali-2026-Wallpapers/',
+  base: '/English/',
   build: {
     sourcemap: 'hidden',
   },
