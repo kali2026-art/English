@@ -1,9 +1,11 @@
-const CACHE_NAME = 'phoneme-classroom-v1';
+const CACHE_NAME = 'phoneme-classroom-v2';
+
+const BASE = '/English/';
 
 const PRECACHE_URLS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
+  BASE,
+  BASE + 'index.html',
+  BASE + 'manifest.json',
 ];
 
 self.addEventListener('install', (event) => {
